@@ -1,0 +1,144 @@
+body {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #212529;
+  height: 10%;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+}
+
+.collapsed {
+  display: none;
+}
+
+nav h2 {
+  color: #fed136;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.navMenu {
+  background-color: #fed136;
+  border: none;
+  color: white;
+  margin-left: 19%;
+  height: 60%;
+  width: 26%;
+  border-radius: 10px;
+}
+
+nav ul {
+  background: pink;
+
+  display: flex;
+}
+
+nav ul li {
+  margin: 10px;
+  color: white;
+  list-style-type: none;
+}
+
+/*************** HERO ************/
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  background: url("header.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  color: white;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.hero h1 {
+  font-size: 55px;
+}
+
+.hero h3 {
+  font-size: 25px;
+  margin-bottom: -10px;
+}
+
+.heroBtn {
+  background: #fed136;
+  border: none;
+  height: 15%;
+  width: 60%;
+  border-radius: 10px;
+  color: white;
+}
+/********* SERVICES **********/
+
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.services p {
+  color: #999999;
+  font-size: 20px;
+}
+
+.serviceBackground {
+  background: #fed136;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+.serviceBox {
+  width: 80%;
+}
+
+/************* PORTFOLIO ************/
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  justify-items: center;
+  background: #f8f9fa;
+}
+
+.portfolioItem {
+  align-self: center;
+  background-color: white;
+  width: 90vw;
+  margin-bottom: 15px;
+}
+
+.portfolioImage {
+  width: 90vw;
+  height: 75%;
+}
+
+.portfolio h1 {
+  margin-top: 94px;
+}
+
+.portfolio p {
+  color: lightslategray;
+}
+
+.portfolioDescription {
+  margin-top: -10px;
+  font-size: 20px;
+  margin-bottom: 80px;
+}
